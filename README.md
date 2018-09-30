@@ -41,8 +41,6 @@ Descubrimos que existen diversos algoritmos de Anti-aliasing, los cuales cuentan
  Primero empezamos a mirar el algoritmo de linea de  [Xiaolin Wu's](https://en.wikipedia.org/wiki/Xiaolin_Wu%27s_line_algorithm), el cual consiste en movernos a través de una linea y pintar pixeles en escala de grises a su alrededor, estándo los pixeles blancos más lejos de la linea y los negros más cerca. El problema es que al no contar con una linea como tal, no lo vimos muy útil en el ejercicio, además de que el suavizado no tiene en cuenta el sombreado del color de los vertices.
 Luego decidimos usar la idea con la que trabaja [FAA](https://en.wikipedia.org/wiki/Fast_approximate_anti-aliasing), la cual es moverse por el borde de la figura mientras se va suavizando cada pixel. Nos pareció esta aproximación perfecta para el ejercicio, ya que al suavizar cada pixel, podiamos seguir manteniendo el sombreado de los colores de los vertices. 
 
-[FAA](https://en.wikipedia.org/wiki/Fast_approximate_anti-aliasing)
-
 ## Entrega
 
 * Modo de entrega: [Fork](https://help.github.com/articles/fork-a-repo/) la plantilla en las cuentas de los integrantes.
