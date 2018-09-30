@@ -73,10 +73,10 @@ void draw() {
   triangleRaster();
   if(antialiasing){
      if(keyPressed){
-       if(key == '/' )
-          sft += 2;
-       if (key == '*')
-          sft -= 2;
+       if(key == 'w' )
+          sft += 4;
+       if (key == 's')
+          sft -= 4;
      } 
     antialiasing();
   }
